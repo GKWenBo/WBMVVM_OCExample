@@ -1,0 +1,6 @@
+framework module Pods_WBMVVM_OCExample_WBMVVM_OCExampleUITests {
+  umbrella header "Pods-WBMVVM_OCExample-WBMVVM_OCExampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
