@@ -14,10 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface WBNavigationControllerStack : NSObject
 
-@property (nonatomic, class, nullable) UITabBarController *currentTabbarController;
-@property (nonatomic, class, nullable) UINavigationController *currentSelectNavigationController;
-@property (nonatomic, class, nullable) UIViewController *currentViewController;
-@property (nonatomic, class, nullable) UIViewController *currentNavigationController;
+@property (nonatomic, class, readonly, nullable) UITabBarController *currentTabbarController;
+@property (nonatomic, class, readonly, nullable) UINavigationController *currentSelectNavigationController;
+@property (nonatomic, class, readonly, nullable) UIViewController *currentViewController;
+@property (nonatomic, class, readonly, nullable) UIViewController *currentNavigationController;
 /// Initialization method. This is the preferred way to create a new navigation controller stack.
 ///
 /// services - The service bus of the `Model` layer.
