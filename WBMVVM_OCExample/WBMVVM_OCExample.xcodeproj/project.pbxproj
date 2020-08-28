@@ -22,6 +22,18 @@
 		FDDCE73A24F7696E00B77E22 /* WBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE73924F7696E00B77E22 /* WBModel.m */; };
 		FDDCE73E24F781D400B77E22 /* WBViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE73D24F781D400B77E22 /* WBViewModel.m */; };
 		FDDCE74124F7829000B77E22 /* WBView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE74024F7829000B77E22 /* WBView.m */; };
+		FDDCE75024F899AC00B77E22 /* WBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE74F24F899AC00B77E22 /* WBTableViewCell.m */; };
+		FDDCE75424F8A11400B77E22 /* WBCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE75324F8A11400B77E22 /* WBCollectionViewCell.m */; };
+		FDDCE75824F8A29A00B77E22 /* WBConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE75724F8A29A00B77E22 /* WBConstant.m */; };
+		FDDCE75C24F8A41E00B77E22 /* WBHTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE75B24F8A41E00B77E22 /* WBHTTPService.m */; };
+		FDDCE76024F8A70B00B77E22 /* WBViewModelServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE75F24F8A70B00B77E22 /* WBViewModelServiceImpl.m */; };
+		FDDCE76324F8B30400B77E22 /* WBTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE76224F8B30400B77E22 /* WBTableViewModel.m */; };
+		FDDCE76624F8B44100B77E22 /* WBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE76524F8B44100B77E22 /* WBNavigationController.m */; };
+		FDDCE76924F8B4E500B77E22 /* WBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE76824F8B4E500B77E22 /* WBViewController.m */; };
+		FDDCE76D24F8C96D00B77E22 /* WBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE76C24F8C96D00B77E22 /* WBTableViewController.m */; };
+		FDDCE77024F8DC7200B77E22 /* UIScrollView+KMRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE76E24F8DC7200B77E22 /* UIScrollView+KMRefresh.m */; };
+		FDDCE77324F8E6CA00B77E22 /* WBNavigationControllerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE77224F8E6CA00B77E22 /* WBNavigationControllerStack.m */; };
+		FDDCE77724F8E7FA00B77E22 /* WBRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE77624F8E7FA00B77E22 /* WBRouter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +88,35 @@
 		FDDCE73D24F781D400B77E22 /* WBViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBViewModel.m; sourceTree = "<group>"; };
 		FDDCE73F24F7829000B77E22 /* WBView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBView.h; sourceTree = "<group>"; };
 		FDDCE74024F7829000B77E22 /* WBView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBView.m; sourceTree = "<group>"; };
+		FDDCE74E24F899AC00B77E22 /* WBTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBTableViewCell.h; sourceTree = "<group>"; };
+		FDDCE74F24F899AC00B77E22 /* WBTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBTableViewCell.m; sourceTree = "<group>"; };
+		FDDCE75124F899DA00B77E22 /* WBReactiveTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBReactiveTableCell.h; sourceTree = "<group>"; };
+		FDDCE75224F8A11400B77E22 /* WBCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBCollectionViewCell.h; sourceTree = "<group>"; };
+		FDDCE75324F8A11400B77E22 /* WBCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBCollectionViewCell.m; sourceTree = "<group>"; };
+		FDDCE75524F8A13D00B77E22 /* WBReactiveCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBReactiveCollectionCell.h; sourceTree = "<group>"; };
+		FDDCE75624F8A29A00B77E22 /* WBConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBConstant.h; sourceTree = "<group>"; };
+		FDDCE75724F8A29A00B77E22 /* WBConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBConstant.m; sourceTree = "<group>"; };
+		FDDCE75924F8A32900B77E22 /* WBNavigatorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBNavigatorProtocol.h; sourceTree = "<group>"; };
+		FDDCE75A24F8A41E00B77E22 /* WBHTTPService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBHTTPService.h; sourceTree = "<group>"; };
+		FDDCE75B24F8A41E00B77E22 /* WBHTTPService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBHTTPService.m; sourceTree = "<group>"; };
+		FDDCE75D24F8A4BF00B77E22 /* WBViewModelServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBViewModelServices.h; sourceTree = "<group>"; };
+		FDDCE75E24F8A70B00B77E22 /* WBViewModelServiceImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBViewModelServiceImpl.h; sourceTree = "<group>"; };
+		FDDCE75F24F8A70B00B77E22 /* WBViewModelServiceImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBViewModelServiceImpl.m; sourceTree = "<group>"; };
+		FDDCE76124F8B30400B77E22 /* WBTableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBTableViewModel.h; sourceTree = "<group>"; };
+		FDDCE76224F8B30400B77E22 /* WBTableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBTableViewModel.m; sourceTree = "<group>"; };
+		FDDCE76424F8B44100B77E22 /* WBNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBNavigationController.h; sourceTree = "<group>"; };
+		FDDCE76524F8B44100B77E22 /* WBNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBNavigationController.m; sourceTree = "<group>"; };
+		FDDCE76724F8B4E500B77E22 /* WBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBViewController.h; sourceTree = "<group>"; };
+		FDDCE76824F8B4E500B77E22 /* WBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBViewController.m; sourceTree = "<group>"; };
+		FDDCE76A24F8B4FD00B77E22 /* WBViewControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBViewControllerProtocol.h; sourceTree = "<group>"; };
+		FDDCE76B24F8C96D00B77E22 /* WBTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBTableViewController.h; sourceTree = "<group>"; };
+		FDDCE76C24F8C96D00B77E22 /* WBTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBTableViewController.m; sourceTree = "<group>"; };
+		FDDCE76E24F8DC7200B77E22 /* UIScrollView+KMRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KMRefresh.m"; sourceTree = "<group>"; };
+		FDDCE76F24F8DC7200B77E22 /* UIScrollView+KMRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KMRefresh.h"; sourceTree = "<group>"; };
+		FDDCE77124F8E6CA00B77E22 /* WBNavigationControllerStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBNavigationControllerStack.h; sourceTree = "<group>"; };
+		FDDCE77224F8E6CA00B77E22 /* WBNavigationControllerStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBNavigationControllerStack.m; sourceTree = "<group>"; };
+		FDDCE77524F8E7FA00B77E22 /* WBRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBRouter.h; sourceTree = "<group>"; };
+		FDDCE77624F8E7FA00B77E22 /* WBRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBRouter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,8 +244,17 @@
 		FDDCE72B24F766CF00B77E22 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
-				FDDCE72C24F766CF00B77E22 /* ViewController.m */,
 				FDDCE72D24F766CF00B77E22 /* ViewController.h */,
+				FDDCE72C24F766CF00B77E22 /* ViewController.m */,
+				FDDCE76424F8B44100B77E22 /* WBNavigationController.h */,
+				FDDCE76524F8B44100B77E22 /* WBNavigationController.m */,
+				FDDCE76724F8B4E500B77E22 /* WBViewController.h */,
+				FDDCE76824F8B4E500B77E22 /* WBViewController.m */,
+				FDDCE76A24F8B4FD00B77E22 /* WBViewControllerProtocol.h */,
+				FDDCE76B24F8C96D00B77E22 /* WBTableViewController.h */,
+				FDDCE76C24F8C96D00B77E22 /* WBTableViewController.m */,
+				FDDCE77124F8E6CA00B77E22 /* WBNavigationControllerStack.h */,
+				FDDCE77224F8E6CA00B77E22 /* WBNavigationControllerStack.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -212,6 +262,8 @@
 		FDDCE72E24F766CF00B77E22 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				FDDCE75624F8A29A00B77E22 /* WBConstant.h */,
+				FDDCE75724F8A29A00B77E22 /* WBConstant.m */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -230,6 +282,12 @@
 				FDDCE73B24F7816B00B77E22 /* WBReactiveView.h */,
 				FDDCE73F24F7829000B77E22 /* WBView.h */,
 				FDDCE74024F7829000B77E22 /* WBView.m */,
+				FDDCE74E24F899AC00B77E22 /* WBTableViewCell.h */,
+				FDDCE74F24F899AC00B77E22 /* WBTableViewCell.m */,
+				FDDCE75124F899DA00B77E22 /* WBReactiveTableCell.h */,
+				FDDCE75224F8A11400B77E22 /* WBCollectionViewCell.h */,
+				FDDCE75324F8A11400B77E22 /* WBCollectionViewCell.m */,
+				FDDCE75524F8A13D00B77E22 /* WBReactiveCollectionCell.h */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -247,6 +305,12 @@
 			children = (
 				FDDCE73C24F781D400B77E22 /* WBViewModel.h */,
 				FDDCE73D24F781D400B77E22 /* WBViewModel.m */,
+				FDDCE76124F8B30400B77E22 /* WBTableViewModel.h */,
+				FDDCE76224F8B30400B77E22 /* WBTableViewModel.m */,
+				FDDCE75924F8A32900B77E22 /* WBNavigatorProtocol.h */,
+				FDDCE75D24F8A4BF00B77E22 /* WBViewModelServices.h */,
+				FDDCE75E24F8A70B00B77E22 /* WBViewModelServiceImpl.h */,
+				FDDCE75F24F8A70B00B77E22 /* WBViewModelServiceImpl.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -271,6 +335,8 @@
 		FDDCE73624F766ED00B77E22 /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				FDDCE75A24F8A41E00B77E22 /* WBHTTPService.h */,
+				FDDCE75B24F8A41E00B77E22 /* WBHTTPService.m */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -278,8 +344,20 @@
 		FDDCE73724F766FD00B77E22 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				FDDCE77424F8E74C00B77E22 /* WBRouter */,
+				FDDCE76F24F8DC7200B77E22 /* UIScrollView+KMRefresh.h */,
+				FDDCE76E24F8DC7200B77E22 /* UIScrollView+KMRefresh.m */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FDDCE77424F8E74C00B77E22 /* WBRouter */ = {
+			isa = PBXGroup;
+			children = (
+				FDDCE77524F8E7FA00B77E22 /* WBRouter.h */,
+				FDDCE77624F8E7FA00B77E22 /* WBRouter.m */,
+			);
+			path = WBRouter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,6 +427,7 @@
 		FDDCE6EA24F7634300B77E22 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WB;
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = huibo2;
 				TargetAttributes = {
@@ -520,13 +599,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDCE77724F8E7FA00B77E22 /* WBRouter.m in Sources */,
+				FDDCE76924F8B4E500B77E22 /* WBViewController.m in Sources */,
+				FDDCE75024F899AC00B77E22 /* WBTableViewCell.m in Sources */,
+				FDDCE76D24F8C96D00B77E22 /* WBTableViewController.m in Sources */,
+				FDDCE77324F8E6CA00B77E22 /* WBNavigationControllerStack.m in Sources */,
 				FDDCE6F724F7634300B77E22 /* AppDelegate.m in Sources */,
+				FDDCE75824F8A29A00B77E22 /* WBConstant.m in Sources */,
+				FDDCE76024F8A70B00B77E22 /* WBViewModelServiceImpl.m in Sources */,
 				FDDCE73A24F7696E00B77E22 /* WBModel.m in Sources */,
+				FDDCE75424F8A11400B77E22 /* WBCollectionViewCell.m in Sources */,
 				FDDCE70824F7634600B77E22 /* main.m in Sources */,
 				FDDCE74124F7829000B77E22 /* WBView.m in Sources */,
+				FDDCE76324F8B30400B77E22 /* WBTableViewModel.m in Sources */,
+				FDDCE77024F8DC7200B77E22 /* UIScrollView+KMRefresh.m in Sources */,
 				FDDCE73524F766CF00B77E22 /* ViewController.m in Sources */,
 				FDDCE6FA24F7634300B77E22 /* SceneDelegate.m in Sources */,
 				FDDCE73E24F781D400B77E22 /* WBViewModel.m in Sources */,
+				FDDCE76624F8B44100B77E22 /* WBNavigationController.m in Sources */,
+				FDDCE75C24F8A41E00B77E22 /* WBHTTPService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

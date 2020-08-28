@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WBNavigationControllerStack.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+/// APP管理的导航栏的堆栈
+@property (nonatomic, readonly, strong) WBNavigationControllerStack *navigationControllerStack;
 
 @end
 

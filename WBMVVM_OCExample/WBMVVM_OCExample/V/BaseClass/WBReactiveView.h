@@ -10,10 +10,18 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol WBReactiveView <NSObject>
+@protocol WBReactiveView  <NSObject>
 
 @optional
+
+/// UI布局
 - (void)makeUI;
+
+/// 绑定
+- (void)bindViewModel;
+
+/// 绑定数据
+/// @param viewModel 数据model
 - (void)bindViewModel:(id)viewModel;
 - (instancetype)initWithViewModel:(id)viewModel;
 

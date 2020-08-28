@@ -9,6 +9,7 @@ target 'WBMVVM_OCExample' do
   pod 'YYModel'
   pod 'ReactiveObjC'
   pod 'AFNetworking'
+  pod 'MJRefresh'
 
   target 'WBMVVM_OCExampleTests' do
     inherit! :search_paths

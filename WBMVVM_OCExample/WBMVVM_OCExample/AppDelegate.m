@@ -7,8 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import "WBViewModelServiceImpl.h"
 
 @interface AppDelegate ()
+
+/// APP管理的导航栏的堆栈
+@property (nonatomic, readwrite, strong) WBNavigationControllerStack *navigationControllerStack;
+/// APP的服务层
+@property (nonatomic, readwrite, strong) WBViewModelServiceImpl *services;
 
 @end
 
@@ -17,7 +23,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self configViewModelServices];
     return YES;
+}
+
+- (void)configViewModelServices {
+    // Config Service
+    self.services = [[WBViewModelServiceImpl alloc] init];
+    // Config Nav Stack
+    self.navigationControllerStack = [[WBNavigationControllerStack alloc] initWithServices:self.services];
 }
 
 
