@@ -27,12 +27,12 @@ NS_ASSUME_NONNULL_BEGIN
 - (MJRefreshAutoNormalFooter *)addAutoFooterWithFooterBlock:(void (^)(MJRefreshAutoNormalFooter *header))footerBlock;
 
 /// 结束头部刷新
-- (void)km_endHeaderRefreshing;
+- (void)wb_endHeaderRefreshing;
 /// 结束底部刷新
-- (void)km_endFooterRefreshing;
+- (void)wb_endFooterRefreshing;
 /// 结束头尾部刷新
-- (void)km_endRefreshing;
-- (void)km_endRefreshingWithNoMoreData;
+- (void)wb_endRefreshing;
+- (void)wb_endRefreshingWithNoMoreData;
 
 @end
 

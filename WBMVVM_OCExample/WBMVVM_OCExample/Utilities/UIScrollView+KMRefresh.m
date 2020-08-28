@@ -56,27 +56,27 @@
     return footer;
 }
 
-- (void)km_endHeaderRefreshing {
+- (void)wb_endHeaderRefreshing {
     if (self.mj_header) {
         [self.mj_header endRefreshing];
     }
 }
 
-- (void)km_endFooterRefreshing {
+- (void)wb_endFooterRefreshing {
     if (self.mj_footer) {
         [self.mj_footer endRefreshing];
     }
 }
 
-- (void)km_endRefreshingWithNoMoreData {
+- (void)wb_endRefreshingWithNoMoreData {
     if (self.mj_footer) {
         [self.mj_footer endRefreshingWithNoMoreData];
     }
 }
 
-- (void)km_endRefreshing {
-    [self km_endHeaderRefreshing];
-    [self km_endFooterRefreshing];
+- (void)wb_endRefreshing {
+    [self wb_endHeaderRefreshing];
+    [self wb_endFooterRefreshing];
 }
 
 @end
