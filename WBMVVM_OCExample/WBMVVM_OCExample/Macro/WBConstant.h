@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+// AppCaches 文件夹路径
+#define WBCachesDirectory [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject]
+// App DocumentDirectory 文件夹路径
+#define WBDocumentDirectory [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES) lastObject]
+
 NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^WBVoidBlock)(void);
